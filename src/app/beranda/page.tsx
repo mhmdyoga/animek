@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Beranda = ({ api }: BerandaProps) => {
+const Beranda = ({ api }: any) => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       {api.data?.map((anime: any) => {
